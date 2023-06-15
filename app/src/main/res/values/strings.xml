@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SPK WP Produk Jual</string>
+    <string name="untuk_menentukan_produk_jual">UNTUK MENENTUKAN PRODUK JUAL</string>
+    <string name="implementasi_metode_weighted_product">IMPLEMENTASI METODE WEIGHTED PRODUCT</string>
+    <string name="studi_kasus_toko_fermala">STUDI KASUS TOKO FERMALA</string>
+    <string name="kec_petasia_timur">KEC. PETASIA TIMUR</string>
+    <string name="kab_morowali_utara">KAB. MOROWALI UTARA</string>
+    <string name="kriteria">KRITERIA</string>
+    <string name="perangkingan">PERANGKINGAN</string>
+    <string name="alternatif">ALTERNATIF</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_kriteria">KriteriaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="modal">Pilih Modal</string>
+    <string name="umur">Pilih Umur Simpan Produk</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nama_alternatif">Nama Alternatif</string>
+    <string name="hint_modal">Pilih Modal Produk</string>
+    <string name="hint_etalase">Masukkan etalase (cm\u00B2)</string>
+    <string name="hint_laba">Masukkan Laba (%)</string>
+    <string name="hint_tren">Masukkan Tren</string>
+    <string name="hint_btn_simpan">SIMPAN</string>
+</resources>

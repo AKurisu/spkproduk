@@ -1,0 +1,25 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_alternatif.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_daftar_krit.xml" value="0.22" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_edit_alternatif.xml" value="0.33" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_krit.xml" value="0.25" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_krite.xml" value="0.9" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_kriteria.xml" value="0.25" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_kriteria2.xml" value="0.22" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/card_base.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/list_modal.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Ferin P Ndabuke/Music/SPKWPProdukJual/app/src/main/res/layout/list_umur.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

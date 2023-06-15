@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ActivityKrit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Krit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFF6A7"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextNamaKriteria1"
+                        android:layout_width="227dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Nama Kriteria 1"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextBobot1"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Bobot Kriteria"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tandai Sebagai :"
+                    android:textColor="#676767"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonCost1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonBenefit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benefit"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Krit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFF6A7"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextNamaKriteria2"
+                        android:layout_width="227dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Nama Kriteria 2"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextBobot2"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Bobot Kriteria"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tandai Sebagai :"
+                    android:textColor="#676767"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonCost2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonBenefit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benefit"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Krit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFF6A7"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextNamaKriteria3"
+                        android:layout_width="227dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Nama Kriteria 3"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextBobot3"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Bobot Kriteria"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tandai Sebagai :"
+                    android:textColor="#676767"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonCost3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonBenefit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benefit"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Krit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFF6A7"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextNamaKriteria4"
+                        android:layout_width="227dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Nama Kriteria 4"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextBobot4"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Bobot Kriteria"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tandai Sebagai :"
+                    android:textColor="#676767"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonCost4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonBenefit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benefit"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card_Krit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardBackgroundColor="#FFF6A7"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextNamaKriteria5"
+                        android:layout_width="227dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1dp"
+                        android:layout_marginEnd="6dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Nama Kriteria 5"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/editTextBobot5"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:backgroundTint="#FF9800"
+                        android:ems="10"
+                        android:hint="Bobot Kriteria"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textColorHint="#9F9F9F"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tandai Sebagai :"
+                    android:textColor="#676767"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonCost5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cost"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonBenefit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Benefit"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            android:text="SIMPAN"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

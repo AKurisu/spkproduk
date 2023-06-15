@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129386278778",
+    "project_id": "spk-wp-produk-jual",
+    "storage_bucket": "spk-wp-produk-jual.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129386278778:android:e8178c0ea8d6396e5430c3",
+        "android_client_info": {
+          "package_name": "com.untad.ferin.spkwpprodukjual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129386278778-15bgda2qbngur9l08itd31lb3l53mhsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr0o05ImnR3WcI77fZjuCW0e4yTXGq3Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129386278778-15bgda2qbngur9l08itd31lb3l53mhsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

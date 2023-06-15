@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SPKWPProdukJual" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_ff9800</item>
+        <item name="colorPrimaryVariant">@color/orange_ff9800</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_ff9800</item>
+        <item name="colorSecondaryVariant">@color/orange_ff9800</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/orange_ff9800</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.SPKWPProdukJual.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.SPKWPProdukJual.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.SPKWPProdukJual.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
